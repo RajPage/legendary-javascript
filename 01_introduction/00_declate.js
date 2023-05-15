@@ -1,10 +1,10 @@
 // This is forbidden in strict mode.
-work = "trabajar"
+peace = "paz"
 
 // The following two logs are pointing to the same variable
-console.log(work) // trabajar
-console.log(globalThis.work) // trabajar
-
+console.log(peace) // paz
+console.log(globalThis.peace) // paz
+// One can just wish that obtaining world peace was this easy, right?
 
 /**
  * A global object is an object that always exists in the global scope.
